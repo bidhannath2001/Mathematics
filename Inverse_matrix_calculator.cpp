@@ -1,8 +1,8 @@
 #include<bits/stdc++.h>
 #include <iostream>
 #include <cmath>
-using namespace std;
 #define MAX_SIZE 20
+using namespace std;
 
 float determinant(float matrix[MAX_SIZE][MAX_SIZE], int n);
 void transpose(float matrix[MAX_SIZE][MAX_SIZE], float factor[MAX_SIZE][MAX_SIZE], int n);
